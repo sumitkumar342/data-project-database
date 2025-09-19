@@ -6,7 +6,7 @@
 
 * create user "sumit" identified by "123";
   GRANT ALL PRIVILEGES ON IPL.* TO 'sumit'@'localhost';
-  FLUSH PRIVILEGES;
+  
 
 ## Write another SQL script that cleans up the user, and database created in the previous step.
 
@@ -111,3 +111,5 @@ select * from matches order by match_id desc limit 5;
 
 select batsman, non_striker, sum(batsman_runs) from deliveries where batsman = "S Dhawan" 
 group by batsman, non_striker;
+
+## Find player heighest run in last 5 over against "Mumbai Indians".
