@@ -3,7 +3,6 @@
 create database IPL;
 create user "sumit" identified by "123";
 GRANT ALL PRIVILEGES ON IPL.* TO 'sumit'@'localhost';
-FLUSH PRIVILEGES;
   
 -- Write another SQL script that cleans up the user, and database created in the previous step.
 
